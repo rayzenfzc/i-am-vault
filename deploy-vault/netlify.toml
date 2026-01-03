@@ -1,0 +1,12 @@
+# Netlify - Don't build, just serve
+# This tells Netlify to skip the build process
+
+[build]
+  command = "echo 'No build needed'"
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"

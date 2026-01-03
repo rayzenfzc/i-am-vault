@@ -1,0 +1,50 @@
+{
+    "name": "i.AM Vault - Design Library",
+    "short_name": "i.AM Vault",
+    "description": "Your personal design library and project tracker with AI assistance",
+    "theme_color": "#89b4fa",
+    "background_color": "#0f0f23",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "categories": [
+        "productivity",
+        "design",
+        "development"
+    ],
+    "shortcuts": [
+        {
+            "name": "New Design",
+            "short_name": "New",
+            "description": "Create a new design",
+            "url": "/?action=new",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}
